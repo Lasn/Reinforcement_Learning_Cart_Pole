@@ -146,7 +146,8 @@ def train(DQNAgent):
 
     agent = DQNAgent(state_size, action_size, hidden_size=128)
 
-    agent.load_model("good/cartpoleV2_4025_record_64.pth")
+    # Load model if needed or train from scratch
+    # agent.load_model("good/cartpoleV2_4025_record_64.pth")
 
     n_episodes = 10000
     max_t = 30000

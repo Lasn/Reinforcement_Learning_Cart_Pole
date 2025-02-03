@@ -146,7 +146,8 @@ def train(DQNAgent):
 
     agent = DQNAgent(state_size, action_size, hidden_size=128)
 
-    agent.load_model("good/cartpole_4391_record_133.pth")
+    # Load model if needed or train from scratch
+    # agent.load_model("good/cartpole_4391_record_133.pth")
 
     n_episodes = 10000
     max_t = 30000
@@ -161,8 +162,6 @@ def train(DQNAgent):
         state = env.reset()
         eps = max(eps_end, eps_decay * eps_start)
         for t in range(max_t):
-            if t % 5000 == 0:
-                env.new_arrow()
             action = agent.act(state, eps)
             next_state, reward, done, score = env.step(action)
             agent.step(state, action, reward, next_state, done)
