@@ -4,7 +4,17 @@ This project implements a CartPole simulation using Deep Q-Networks (DQN) for re
 
 ## Project Structure
 
-. ├── CartPoleGame.py ├── CartPoleGameV2.py ├── QN.py ├── QNV2.py ├── testV1.py ├── testV2.py ├── model/ │ └── good/ │ ├── cartpole_4391_record_133.pth │ └── cartpoleV2_4025_record_64.pth ├── README.md └── .gitignore
+.
+├── CartPoleGame.py
+├── CartPoleGameV2.py
+├── QN.py
+├── QNV2.py
+├── testV1.py
+├── testV2.py
+├── model/
+│ └── good/
+│ ├── cartpole_4391_record_133.pth
+│ └── cartpoleV2_4025_record_64.pth
 
 ## Files
 
@@ -72,9 +82,11 @@ To test the DQN agent on the second version of the CartPole simulation:
 
 Pre-trained models are available in the good directory:
 
-cartpole_4391_record_133.pth: Pre-trained model for the first version of the CartPole simulation.
-cartpoleV2_4025_record_64.pth: Pre-trained model for the second version of the CartPole simulation.
+- cartpole_4391_record_133.pth: Pre-trained model for the first version of the CartPole simulation.
+- cartpoleV2_4025_record_64.pth: Pre-trained model for the second version of the CartPole simulation.
+
 You can load these models in the respective test scripts to evaluate their performance.
 
-License
+### License
+
 This project is licensed under the MIT License.
