@@ -19,7 +19,7 @@ This project implements a CartPole simulation using Deep Q-Networks (DQN) for re
 ## Files
 
 - `CartPoleGame.py`: Contains the implementation of the first version of the CartPole simulation.
-- `CartPoleGameV2.py`: Contains the implementation of the second version of the CartPole simulation with additional features.
+- `CartPoleGameV2.py`: Contains the implementation of the second version of the CartPole simulation with a features where you click the screen and the cart moves to that position.
 - `QN.py`: Implements the DQN agent for the first version of the CartPole simulation.
 - `QNV2.py`: Implements the DQN agent for the second version of the CartPole simulation.
 - `testV1.py`: Script to test the DQN agent on the first version of the CartPole simulation.
