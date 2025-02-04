@@ -106,6 +106,11 @@ Pre-trained models are available in the good directory:
 
 You can load these models in the respective test scripts to evaluate their performance.
 
-### License
+## License
 
 This project is licensed under the MIT License.
+
+## Acknowledgments
+
+- The implementation of the DQN algorithm is based on the original paper "Playing Atari with Deep Reinforcement Learning" by Mnih et al.
+- The Cartpole game implementation is inspired by various open-source projects and tutorials.
