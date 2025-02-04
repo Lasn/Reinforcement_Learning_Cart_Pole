@@ -4,11 +4,19 @@ This project implements a CartPole simulation using Deep Q-Networks (DQN) for re
 
 ## V1 Demo
 
-https://github.com/user-attachments/assets/1507a64c-cc83-431f-adc4-0fd8e1b525ca
+
+
+https://github.com/user-attachments/assets/bd76af18-7f96-4886-8f07-4336cdba0416
+
+
 
 ## V2 Demo
 
-https://github.com/user-attachments/assets/4e7d6f92-436b-4d3a-84fd-e30d1c941fa7
+
+
+https://github.com/user-attachments/assets/15dcbac3-d69c-40db-bb71-03018ca53087
+
+
 
 ## Project Structure
 
