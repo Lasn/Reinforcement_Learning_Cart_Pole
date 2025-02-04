@@ -2,6 +2,14 @@
 
 This project implements a CartPole simulation using Deep Q-Networks (DQN) for reinforcement learning. The project includes two versions of the CartPole game and their respective DQN implementations.
 
+## V1 Demo
+
+https://github.com/user-attachments/assets/1507a64c-cc83-431f-adc4-0fd8e1b525ca
+
+## V2 Demo
+
+https://github.com/user-attachments/assets/4e7d6f92-436b-4d3a-84fd-e30d1c941fa7
+
 ## Project Structure
 
 .
