@@ -2,6 +2,9 @@
 
 This project implements a CartPole simulation using Deep Q-Networks (DQN) for reinforcement learning. The project includes two versions of the CartPole game and their respective DQN implementations.
 
+- V1 Finds its balance within the frame
+- V2 Find its balance as close to the arrow as possible
+
 ## V1 Demo
 
 
